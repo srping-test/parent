@@ -1,0 +1,16 @@
+#spring:
+#  profiles:
+#    active: sit
+#  jackson:
+#    default-property-inclusion: non_null
+#    date-format: yyyy-MM-dd HH:mm:ss
+#    serialization:
+#      WRITE_DATES_AS_TIMESTAMPS: false
+#datasource:
+#       url: jdbc:mysql://localhost:3306/order?useUnicode=true&characterEncoding=utf8&useSSL=false
+#       driver-class-name: com.mysql.jdbc.Driver
+#       type: com.alibaba.druid.pool.DruidDataSource
+
+server:
+  port: 9002
+  contextPath: /api/v1/orderserv
